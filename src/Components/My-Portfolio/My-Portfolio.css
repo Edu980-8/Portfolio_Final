@@ -1,0 +1,16 @@
+.portfolio {
+    width:100%;
+    display: grid;
+    background-image: url("../../Images/fondo_transp.png");
+    background-size: cover;
+    background-position: 0% 99%;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: calc(100vh - 16.8vh);
+}
+.portfolio h1 {
+    grid-column: 1/5;
+    margin-top: 10vh;
+    color: var(--aux-color);
+    text-align: center;
+}
+

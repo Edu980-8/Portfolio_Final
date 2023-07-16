@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@100&family=Raleway:ital,wght@0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.02em;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --first-color: #023C90;
+    --aux-color: #F4401F;
+    --content-color: #F7FFFB;
+    --texto-aux:black;
+}
+h1{
+    font-size: clamp(20px, 3vw, 40px);/*font-size: clamp(min, val, max);*/
+}
+
+h3{
+    font-size: clamp(15px, 2vw, 25px);
+}
+
+h4{
+    font-size: clamp(15px, 2vw, 25px);
+}
+
+
